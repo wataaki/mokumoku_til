@@ -4,5 +4,6 @@
   - API The Good Parts
 
 ## [AWS](./AWS)
+  - ソリューションアーキテクト-アソシエイト
 
 ## [DDD](./DDD)
