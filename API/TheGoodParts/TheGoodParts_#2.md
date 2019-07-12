@@ -9,3 +9,23 @@ APIとして統合できそうな機能を考える（e.g. 一覧取得と検索
 ### [エンドポイントを考える](../notes/uri_endpoint.md)
 
 ### [HTTP メソッドとエンドポイント](../notes/request_method.md)
+
+### X-HTTP-Method-Override ヘッダ
+環境によって PUT や DELETE や PATCH が利用できない場合に、
+ヘッダにメタ情報として、本当に利用したいメソッドを明記する。
+サーバー側のフレームワークやミドルウェアが標準でサポートしている場合も大い。
+
+- X-HTTP-Method-Override
+HTTPリクエストヘッダを利用する方法
+```
+  POST /v1/users/123 HTTP/1.1
+  Host: api.example.com
+  X-HTTP-Method-Override: DELETE
+```
+
+- _method
+From のパラメータの 1 つとして送信する。
+```
+ContentType: application/x-www-form-urlencoded
+user=testuser&_method=PUT
+```
