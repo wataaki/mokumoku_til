@@ -1,4 +1,4 @@
-# RDS (Amazon Relational Database Service)
-データベースのマネージドサービス
+# RDS (Amazon Relational Database Service)  
+データベースのマネージドサービス  
 
-## Aurora
+## Aurora  
