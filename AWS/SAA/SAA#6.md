@@ -26,3 +26,5 @@ AWS のストレージサービスは以下の 5 つ
 ## 6-2. [EBS](../services/EBS.md)  
 
 ## 6-3. [EFS](../services/EFS.md)
+
+## 6-4. [S3](../services/S3.md)
