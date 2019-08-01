@@ -30,3 +30,5 @@ AWS のストレージサービスは以下の 5 つ
 ## 6-4. [S3](../services/S3.md)
 
 ## 6-5. [Glacier](../services/Glacier.md)
+
+## 6-6. [Storage Gateway](../services/StorageGateway.md)
