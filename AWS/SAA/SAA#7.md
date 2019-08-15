@@ -1,6 +1,6 @@
-# データベースサービス
+# 7. データベースサービス
 
-## 6-1. AWS のデータベースサービス  
+## 7-1. AWS のデータベースサービス  
 AWS では 5 つのデータベースサービスを提供している。  
 - Amazon RDS  
 - Amazon DynamoDB  
@@ -30,4 +30,8 @@ AWS のデータベースサービスのうち DynamoDB, ElastiCache, Neptune �
 新たに　登場した NoSQL は、RDB を完全に置き換えるものではない。  
 1 つのシステムの中でどちらか一方だけを使うのではなく、アプリケーションのユースケースに応じて複数のデーベースを使い分けるという考え方を持つようにすると良い。  
 
-## 6-2. [RDS](../services/RDS.md)
+## 7-2. [RDS](../services/RDS.md)
+
+## 7-3. [Redshift](../services/Redshift.md)
+
+## 7-4. [DynamoDB](../services/DynamoDB.md)
