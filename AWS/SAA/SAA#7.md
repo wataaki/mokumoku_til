@@ -35,3 +35,5 @@ AWS のデータベースサービスのうち DynamoDB, ElastiCache, Neptune �
 ## 7-3. [Redshift](../services/Redshift.md)
 
 ## 7-4. [DynamoDB](../services/DynamoDB.md)
+
+## 7-5. [Elasti Cache](../services/ElastiCache.md)
