@@ -1,8 +1,7 @@
-# API. The Good Parts  
-## 1.  
+# 1. WebAPI とはなにか
 
-### LSUDs  
+## LSUDs  
 公開API  
 
-### SSKD  
+## SSKD  
 内々API  
